@@ -1,0 +1,214 @@
+*{
+	padding:0;
+	margin:0;
+}
+.outer{
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+#swiper-container{
+	width:100%;
+	height:5.4rem;
+	
+}
+
+#title{
+	width:100%;
+	border:1px solid #ccc;
+	font-size: 0.4rem;
+	font-weight: bold;
+	padding-left: 0.3rem;
+	line-height: 1.1rem;
+	margin-top:-0.26rem;
+	
+}
+.message p{
+	font-size: 0.28rem;
+	padding-top:0.2rem;
+}
+.introduce{
+	width:100%;
+	height:15rem;
+}
+.introtop  {
+	/*height:0.6rem;*/
+	width:1.6rem;
+	font-size: 0.36rem;
+	margin-left: 0.25rem;
+	line-height: 0.6rem;
+	background: #00B1BB;
+	padding:0.1rem;
+	margin-top:0.3rem;
+	
+}
+.introtext{
+	width:100%;
+	/*height:7.6rem;*/
+	
+}
+.introtext>p{
+	display: inline-block;
+	font-size: 0.28rem;
+	margin-left: 0.3rem;
+	margin-top:0.3rem;
+	line-height: 0.6rem;
+}
+.introtext p span{
+	color:#84B1C1;
+}
+.introtext .last{
+	font-weight: bold;
+	line-height: 0.5rem;
+}
+.introtext img{
+	margin-top: 0.3rem;
+	display: inline-block;
+	width:100%;
+	height:4.3rem;
+}
+.doctor{
+	border-top:0.16rem solid silver;
+	border-bottom:0.16rem solid silver;
+	height: 12rem;
+}
+.doctor .person-message{
+	/*height: 1.4rem;*/
+	overflow: hidden;
+	border-bottom: 0.01rem solid silver;
+	padding: 0.36rem 0;
+	font-size: 0.15rem;
+}
+.doctor .left{
+	float: left;
+	margin-left: 0.5rem;
+}
+.doctor .right{
+	float:left;
+}
+.message1>span{
+	margin-left: 0.4rem;
+	
+}
+.message2{
+	margin-top: 0.1rem;
+}
+.message2 span{
+	display: inline-block;
+	background: #eee;
+	margin-left: 0.3rem;
+	padding:0.01rem 0.3rem;
+	margin-top: 0.06rem;
+	margin-left: 0.3rem;
+}
+.right .message1>.name{
+	font-size: 0.36rem;
+	color:#00B1BB;
+}
+.doctor .imgs{
+	float:right;
+	margin-top: 0.5rem;
+	
+}
+.doctor .imgs img{
+	width:0.25rem;
+	height:0.36rem;
+	margin-right: 0.4rem;
+}
+.left img{
+	width:1.38rem;
+	height:1.38rem;
+}
+/*会员套餐*/
+.member{
+	border-bottom: 0.16rem solid #eee;
+	font-size: 0.28rem;
+	height: 16rem;
+}
+.member img{
+	width:4.16rem;
+	height:0.6rem;
+	margin-left:0.26rem;
+	display: inline-block;
+	margin-top:0.55rem
+}
+.member p{
+	margin-left: 0.26rem;
+	line-height:0.6rem;
+}
+.member p span{
+	color:#24B6C0;
+	
+}
+/*常见问题*/
+.question{
+	font-size: 0.28rem;
+	height: 8rem;
+	
+}
+.problem{
+	margin-left: 0.26rem;
+	margin-top: 0.3rem;
+}
+.problem p{
+	line-height: 0.7rem;
+}
+/*.problem .wenti{
+	color: #00B1BB;
+}*/
+/*电话预约*/
+.order{
+	width:100%;
+	background: #00B1BB;
+	text-align: center;
+	color: white;
+	font-size:0.48rem;
+	padding:0.2rem;
+}
+#hidetop{
+	width:100%;
+	height:1.4rem;
+	position:fixed;
+	/*top:-1.4rem;*/
+	top:0;
+	left:0;
+	background: #fff;
+	z-index: 10;
+	display:none ;
+	
+}
+#hide{
+	width:100%;
+	position:relative;
+	overflow: hidden;
+	
+}
+#hide li{
+	list-style: none;
+	float:left;
+	text-align: center;
+	line-height: 1.4rem;
+	width:33.33%;
+	font-size: 0.36rem;
+	text-align:center;
+	border-right:1px solid #ccc;
+	border-bottom: 1px solid #1D9898 ;
+	box-sizing: border-box;		
+}
+#hide  .active{
+	color:#1D9898;
+	font-weight: 2000;
+}
+#hide #sanjiao{
+	position:absolute;
+	top:0;
+	left:0;
+	/*height:0.2rem ;*/
+	margin-left:1.05rem;
+   /* width: 0;*/
+    height: 1.1rem;
+    font-size: 0;
+    border: 0.15rem solid;
+    border-color:  transparent  transparent #00B1BB transparent ;
+    /*overflow: hidden;*/
+	/*background: #00B1BB;*/
+}
